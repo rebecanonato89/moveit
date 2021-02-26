@@ -29,7 +29,7 @@ export function Countdown() {
 
             { hasFinished ? (
                 <button disabled className={styles.countdownButton}>
-                    Ciclo encerrado <img src="checked.jpg" alt="checked" />
+                    Ciclo encerrado 
                 </button>
             ) : (              
                 <>
@@ -47,4 +47,6 @@ export function Countdown() {
                 )}
         </div>
     );
-}
+} 
+
+//<img src="checked.jpg" alt="checked" />
